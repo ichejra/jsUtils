@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myfirst 10.8s infinite;
+  animation-direction: normal;
+  overflow: hidden;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: -160px; top: 0px;}
+ 
+  100% {background: red; left: 1000px; top: 0px;}
+}
+</style>
+</head>
+<body>
+
+<h1>animation-direction: alternate</h1>
+
+<p>Play the animation forwards first, then backwards:</p>
+<div></div>
+
+</body>
+</html>
